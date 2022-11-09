@@ -37,12 +37,12 @@
 
 -   Crie um usuário passando nome, email e senha no corpo da requisição em formato JSON para POST /user
 
-[image.png](https://ibb.co/nrvQHqK)
+![Create User](https://imgur.com/a/FleibOC)
 
 -   Envie no corpo da requisiçao seu email e senha cadastrados em formato JSON para POST /session
 
-[image.png](https://ibb.co/0GrytR4)
+![Get Token](https://ibb.co/0GrytR4)
 
 -   Agora que você tem seu Token, basta inseri-lo no bearer em suas próximas requisições
 
-[image.png](https://ibb.co/V2rxCxg)
+![Bearer Auth](https://ibb.co/V2rxCxg)
