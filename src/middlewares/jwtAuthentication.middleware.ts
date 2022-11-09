@@ -1,10 +1,10 @@
 import { Response, NextFunction } from 'express';
-import IGetUserAuthInfoRequest from '../@types/express';
+import IUserIdRequest from '../@types/express';
 import * as jwt from 'jsonwebtoken';
 import 'dotenv/config';
 
 const jwtAuth: any = async (
-    request: IGetUserAuthInfoRequest,
+    request: IUserIdRequest,
     response: Response,
     next: NextFunction
 ) => {
